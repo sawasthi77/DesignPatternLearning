@@ -1,0 +1,10 @@
+Factory Pattern helps to create loosely coupled OOP design.
+Whenever we use the new keyword we violate the principle.
+
+If we program to an interface, the code will work fine with any other
+classes implementing that interface.
+
+Abstract Factory Pattern factories that creates other factories.
+
+It is an interface is responsible for creating a factory of related
+objects without explicitly specifying their classes.
