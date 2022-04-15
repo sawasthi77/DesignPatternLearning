@@ -1,0 +1,6 @@
+When we need to copy the methods or fields from one object to another we need prototype pattern.
+Because the fields can be private and object creation can be with the help of interface.
+Animal dog = new Dog();
+like in this we cannot access the methods of animal class but not the dog.
+So we have to delegate the object creation process to the object itself.
+that means we use cloneable interface to get the copy of the object from the object itself.

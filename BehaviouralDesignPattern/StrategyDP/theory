@@ -1,0 +1,12 @@
+Advantages of using solid principles:
+1) Software entities should be open for extension but closed for modification
+2) We can use the if-else statements and they are going to work fine but they are difficult to test.
+3) So using the strategy pattern reduces the cyclomatic complexity of the application by reducing the number
+of branches of application
+
+what we have achieved by this:
+1) Not violated open closed principle
+we have used abstraction so that we can extend the functionality of the application.
+2) Used dependency injection
+we have used composition not inheritance so that for performing any run time operation we don't need to
+change the entire code.
