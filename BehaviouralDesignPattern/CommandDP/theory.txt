@@ -1,0 +1,12 @@
+Command Design pattern is used for the
+Separation of concerns.
+It means we can separate the classes that invoke the operation and that will execute the operation.
+By this we can achieve loosely coupled design, and we do not violate the solid principles.
+We can further modify and add new commands hence maintaining open/closed principle.
+We do not have to execute the commands immediately,
+we can store the commands in DS and perform undo/redo operation.
+It has 4 main parts as:
+Command: which is an interface which has one execution method of the client.
+Invoker: has all the invocation logic of the commands, knows how to execute the commands.
+Receiver: where these methods are called
+Client: decides what all methods and logic is required.
