@@ -1,0 +1,8 @@
+This is used one object has many dependencies with other objects,
+to avoid tight coupling we use this DP.
+In this there is one subject which is the main object and other as observers,
+which are dependent on this subject and these subscribe to this subject,
+and update themselves when ever there is any state change in subject.
+This Design pattern has main objectives as follows:
+1) We can add new observers without much modification
+2) There is clear abstraction between observers and subject.
