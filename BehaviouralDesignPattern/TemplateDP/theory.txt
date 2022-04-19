@@ -1,0 +1,3 @@
+This deals with separating the code which is common for many classes.
+That means involving inheritance
+Separating the static code and dynamic code in different classes.
